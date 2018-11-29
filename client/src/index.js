@@ -1,16 +1,5 @@
-console.log("index.js is running");
-
-import React, { Component } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-
-class UberEats extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Uber Eats Application</h1>
-      </div>
-    );
-  }
-}
+import UberEats from "./components/UberEats"
 
 ReactDOM.render(<UberEats />, document.getElementById("root"));
